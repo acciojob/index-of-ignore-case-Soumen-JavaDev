@@ -1,5 +1,9 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+	let i=s1.toLowerCase();
+	let j=s2.toLowerCase();
+
+	return i.indexOf(j);
 }
 
 // Please do not change the code below
